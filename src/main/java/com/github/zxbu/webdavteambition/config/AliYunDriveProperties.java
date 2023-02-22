@@ -4,7 +4,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @ConfigurationProperties(prefix = "aliyundrive", ignoreUnknownFields = true)
 public class AliYunDriveProperties {
-    private String url = "https://api.aliyundrive.com/v2";
+    private String url = "https://api.aliyundrive.com/adrive/v3";
     private String authorization = "";
     private String refreshToken;
     private String workDir = "/etc/aliyun-driver/";
